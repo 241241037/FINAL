@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <style>
+        #contenefor{
+
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <form method="get">
+            <p>
+                <label for="comentarios"> comentarios</label><br>
+                    <textarea cols="40" rows="8" required id="msg" name="msg">Terminos y condiciones</textarea>
+            </p>
+            <p>
+                <label for="lenguaje">Lenguaje(s) favoritos</label><br>
+                <select name="lenguaje" id="lenguaje" required multiple="true">
+                    <option value="">Seleccione...</option>
+                    <option value="php">PHP</option>
+                    <option value="phyton">Python</option>
+                    <option value="Javascripy">JavaScrip</option>
+                    <option value="Java">Java</option>
+                    <option value="C++">C++</option>
+                </select>
+            </p>
+            <p>
+                <input type="submit" id="remitir" value="Remitir Informacion">
+            </p>
+            <p>
+                <label fors="imagenes">Seleccione imagen</label><br>
+                <input type="file" id="imagenes" name="imagenes" required>
+            </p>
+            <p></p>
+                <label fors="imagenes">Seleccione imagen</label><br>
+                <input type="file" id="imagenes" name="imagenes" required multiple="true">
+            </p>
+            <p>
+                <label for="sp">SISTEMA OPERATIVO</label><br>
+                <input type="checkbox" id="so1" name="so1" value="windows"> windows<br>
+                <input type="checkbox" id="so2" name="so2" value="MACOS">MACOS<br>
+                <input type="checkbox" id="so3" name="so3" value="LINUX">LINUX<br>
+            </p>
+            <p></p>
+                <label for="sp">SISTEMA OPERATIVO</label><br>
+                <input type="radio" id="so" name="so" value="windows"> windows<br>
+                <input type="radio" id="so" name="so" value="MACOS">MACOS<br>
+                <input type="radio" id="so" name="so" value="LINUX">LINUX<br>
+            </p>
+            <p>
+                <button id="lister">LISTRA DATOS</button>&nbsp; &nbsp;
+                <button id="guardar">GUARDAR DATOS</button>&nbsp; &nbsp;
+                <button id="eliminar">ELIMINAR DATOS</button>&nbsp; &nbsp;
+                <button id="edita">EDITAR DATOS</button>&nbsp; &nbsp;
+                <button type="submit" id="remitir">Remitir DATOS</button>
+            </p>
+            <p>
+                <label for="dato">FECHA</label><br>
+                <input type="date" id="fecha" name="fecha" required>
+            </p>
+            <p>
+                <label for="hora">HORAS</label><br>
+                <input type="time" id="hora" name="hora" required>
+            </p>
+            <p>
+                <label for="edad">EDAD</label><br>
+                <input type="number" id="edad" name="edad" required min="0" max="100" step="5">
+            </p>
+            <p>
+                <label for="email">CORREo</label><br>
+                <input type="email" id="correo" name="correo" required>
+            </p>
+            <p>
+                <input type="submit" id="remitir" value=" Remitir Informacion">
+            </p>
+        </form>
+    </div>
+    
+</body>
+</html>
